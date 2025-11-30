@@ -1,0 +1,15 @@
+<div class="vitals-card">
+  <h3>Vitals</h3>
+
+  <div class="vital-row">
+    <span>Heart Rate:</span>
+    <strong *ngIf="heartRate !== null">{{ heartRate }} bpm</strong>
+    <span *ngIf="heartRate === null">--</span>
+  </div>
+
+  <div class="vital-row">
+    <span>SpO₂:</span>
+    <strong *ngIf="spo2 !== null">{{ spo2 }} %</strong>
+    <span *ngIf="spo2 === null">--</span>
+  </div>
+</div>
