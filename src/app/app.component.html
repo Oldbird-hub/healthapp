@@ -1,5 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Health App</a>
+  <a class="navbar-brand d-flex align-items-center" href="#">
+  <img
+    src="/image2.svg"
+    alt="Health App logo"
+    width="30"
+    height="30"
+    class="d-inline-block align-top me-2"
+  />
+  <span>Health App</span>
+</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -84,9 +93,35 @@
             <li>ESP32-C3 · ECG sensor</li>
             <li>ESP32-C3 · MAX30102 (HR &amp; SpO₂)</li>
           </ul>
-          <div>Server: ws://192.168.1.50:8080</div>
+          <div>Server: ws://localhost:8080</div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<footer class="footer mt-auto py-3 bg-dark text-light">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    
+    <div class="mb-2 mb-md-0 text-center text-md-start">
+      <small>
+        © 2025 <strong>Oldbird</strong> • Health Monitoring System  
+        <br class="d-md-none">
+        All Rights Reserved.
+      </small>
+    </div>
+
+    <div class="footer-icons text-center text-md-end">
+      <a href="https://github.com/Oldbird-hub/healthapp" target="_blank" class="footer-icon mx-2">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/%CE%BD%CE%B9%CE%BA%CF%8C%CE%BB%CE%B1%CE%BF%CF%82-%CF%87%CF%81%CF%85%CF%83%CE%BF%CE%B2%CE%B1%CE%BB%CE%AC%CE%BD%CF%84%CE%B7%CF%82-%CE%B3%CE%B5%CF%81%CE%BF%CE%BD%CF%84%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%82-58033939b/" target="_blank" class="footer-icon mx-2">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="nick.oldbird@gmail.com" class="footer-icon mx-2">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+    </div>
+
+  </div>
+</footer>

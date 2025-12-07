@@ -15,7 +15,7 @@ export class EcgSocketService implements OnDestroy {
   private socket?: WebSocket;
 
   // Default URL; callers may pass a different url to connect()
-  private readonly defaultUrl = 'ws://192.168.1.98:8080';
+  private readonly defaultUrl = 'ws://192.168.1.30:8080';
 
   /**
    * Connect to the WebSocket. If `url` is provided it overrides the default.

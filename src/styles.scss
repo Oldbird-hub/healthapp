@@ -1,2 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 // @import 'bootstrap/scss';
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Κάνουμε το app-root flex column πλήρους ύψους */
+app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Το main “γεμίζει” τον χώρο, σπρώχνει το footer κάτω */
+.main-content {
+  flex: 1 0 auto;
+}
+
+/* Ο footer δεν συρρικνώνεται */
+.footer {
+  flex-shrink: 0;
+}
+
+/* Κεντράρισμα/μέγιστο πλάτος περιεχομένου */
+.dashboard-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
